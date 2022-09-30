@@ -31,15 +31,15 @@ nav{
 .icon{
     margin-bottom: 0.5rem;
     padding: 1rem;
-    background-color: #f2f3f5;
+    background-color: #001D3D;
     border-radius: 100%;
     display: flex;
     align-items: center;
-    text-decoration: none;
 }
 .icon p{
     margin-left: 0.5rem;
     display: none;
+    font-weight: bold
 }
 .icon:hover{
     background-color: #FFC300;
@@ -54,25 +54,35 @@ nav{
 .icon span{
     font-size: 2rem;
     cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
 
 /* PAGE 1 STYLES */
-.page1-text{
-    margin: 0px;
-}
-
-.para{
+.page1{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100vw;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 } 
-
+.page1-text{
+    margin: 0px;
+}
+.main-profile{
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin: auto 100px auto 200px;
+}
+.main-profile:hover {
+    width: 400px;
+    transition-duration: 1s;
+}
 #page1{
     background-image: url(Background-soft.jpg);
     height: 100vh;
@@ -89,12 +99,7 @@ nav{
     height: 100vh;
 }
 
-.main-profile{
-    width: 400px;
-    border: 3px solid black;
-    border-radius: 50%;
-    margin: auto 100px auto 200px;
-}
+
 
 h1{
     
