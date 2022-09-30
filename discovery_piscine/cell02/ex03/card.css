@@ -1,0 +1,58 @@
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+table {
+    margin: 100px auto;
+    width: 400px;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .2);
+}
+
+.profile-name {
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.profile-image {
+    margin-top: 40px;
+    margin-bottom: 150px;
+    border: 1px solid rgb(80, 122, 185);
+    width: 300px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.profile-login {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.profile-desc {
+    font: 24px;
+}
+
+.profile-social {
+    margin-top: 100px;
+}
+
+.profile-button {
+    background: black;
+    border: none;
+    color: white;
+    margin-top: 25px;
+    padding: 15px 32px;
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif
+}
